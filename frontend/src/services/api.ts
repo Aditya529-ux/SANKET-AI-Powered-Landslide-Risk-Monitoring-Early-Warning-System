@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { HealthCheck, SummaryStats, HotspotRecord, PredictionInput, PredictionResult, BroadcastRequest, BroadcastResponse } from '../types';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:8000'}/api`;
 
 export const api = {
   checkHealth: async (): Promise<HealthCheck> => {
