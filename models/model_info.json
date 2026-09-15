@@ -1,0 +1,28 @@
+{
+    "note": "Metrics obtained from prototype/development dataset. NOT real-world validated.",
+    "best_model": "Logistic Regression",
+    "numerical_features": [
+        "latitude",
+        "longitude",
+        "rainfall_24h_mm",
+        "rainfall_72h_mm",
+        "rainfall_7d_mm",
+        "rainfall_intensity_3h_mm",
+        "rainfall_anomaly_pct",
+        "elevation_m",
+        "slope_deg",
+        "aspect_deg",
+        "curvature",
+        "soil_moisture",
+        "clay_pct",
+        "ndvi",
+        "geology_risk_index",
+        "displacement_mm",
+        "historical_landslide_count",
+        "distance_to_road_km",
+        "distance_to_settlement_km",
+        "infrastructure_exposure_index"
+    ],
+    "categorical_features": [],
+    "target": "landslide_occurrence"
+}

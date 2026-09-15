@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-sanket-bg text-sanket-charcoal font-sans;
+  }
+}
+
+/* Custom scrollbar for a cleaner dashboard look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-sanket-olive rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-sanket-sage;
+}
