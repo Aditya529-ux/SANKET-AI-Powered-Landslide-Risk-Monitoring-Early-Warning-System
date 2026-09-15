@@ -8,6 +8,7 @@ app = FastAPI(title="SANKET API", version="1.0.0")
 origins = [
     "http://localhost:5173",
     "http://localhost:5174",
+     "https://sanket-ai-powered-landslide-risk-mo-pi.vercel.app"
 ]
 
 app.add_middleware(
